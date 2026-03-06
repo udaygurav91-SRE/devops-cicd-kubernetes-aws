@@ -1,0 +1,17 @@
+Architecture Flow
+
+Developer
+   ↓
+GitHub Repository
+   ↓
+Jenkins CI/CD Pipeline
+   ↓
+Docker Image Build
+   ↓
+Push to DockerHub
+   ↓
+Kubernetes Deployment
+   ↓
+Application Pods
+   ↓
+Monitoring with Prometheus and Grafana
